@@ -6,11 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Switch Statements</h1>
+    <h1>Switch Statements</h1>
     <?php 
-    // Variable Declaration
         $grade = "A";
-        //Switch($variable) will scrutinuze the value of the variable against the cited cases. 
         switch($grade){
             case "A":
                 echo "<h2 style='color: green'>Great! You Pass</h2>";
