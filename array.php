@@ -22,9 +22,6 @@
             echo "<p> $numbers[$count]</p>";
            
         }
-        
-
-       
     ?>
 </body>
 </html>
