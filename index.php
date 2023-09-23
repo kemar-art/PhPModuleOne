@@ -2,18 +2,22 @@
   $title = "Index";
   include"includes/header.php";
 ?>
-  <h1>Hello World</h1>
-
-
+            <br/>
+            <br/>
+  <h1 class="text-center">Hello World</h1>
+  4>
+<div class="text-center">
   <?php 
-    echo"This is PHP";
-  ?>
+      echo"This is PHP";
 
-  <?php 
-    $name = "Kemar Norton";
-    echo"<h1>My name is: $name</h1>";
-  ?>
+      $name = "Kemar Norton";
+      echo"<h1>My name is: $name</h1>";
+      echo "<br/>";
 
-<?php
-    require"includes/footer.php";
-?>
+      echo "<h4 >Assigment One</h>";
+      echo "<br/>";
+      echo "<br/>";
+      require"includes/footer.php";
+  ?>
+</div>
+ 

@@ -2,25 +2,32 @@
     $title = "DateTime";
     include"includes/header.php";
 ?>
+    <br/>
+    <br/>
+    <h1 class="text-center">Date and Time</h1>
+    <div class="text-center">
+        <?php
+            $datenow = getdate();
+            echo "Today's Date: <br/>";
+            echo $datenow['mday'] . '<br/>';
+            echo $datenow['mon']. "<br/>";
+            echo $datenow['year']. "<br/>";
+            
+            echo "Today's Date: " . $datenow['mday'] . '/' . $datenow['mon'] . '/'. $datenow['year']. '<br/>';
     
-    <h1>Date and Time</h1>
-
+            echo time() . '<br/>';
+    
+    
+            print date("m/d/y G.i:s<br>", time()) . '<br/>';
+            print "Today is ";
+            print date("j of F Y, \a\\t g.i a", time());
+        ?>
+    </div>
+    
+    <br/>
+    <br/>
+<div class="text-center">
     <?php
-         $datenow = getdate();
-         echo "Today's Date: <br/>";
-         echo $datenow['mday'] . '<br/>';
-         echo $datenow['mon']. "<br/>";
-         echo $datenow['year']. "<br/>";
-         
-         echo "Today's Date: " . $datenow['mday'] . '/' . $datenow['mon'] . '/'. $datenow['year']. '<br/>';
- 
-         echo time() . '<br/>';
- 
- 
-         print date("m/d/y G.i:s<br>", time()) . '<br/>';
-         print "Today is ";
-         print date("j of F Y, \a\\t g.i a", time());
+      require"includes/footer.php";
     ?>
-<?php
-    require"includes/footer.php";
-?>
+</div>     
