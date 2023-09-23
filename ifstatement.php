@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<?php
+    $title = "If Statement";     
+    include"includes/header.php";
+?>
+    
     <?php 
         echo "<h2>If Statement</h2>";
 
@@ -29,5 +26,6 @@
             echo "<h3 style='color: red'>You Have Failed</3>";
         }
     ?>
-</body>
-</html>
+<?php
+    require"includes/footer.php";
+?>

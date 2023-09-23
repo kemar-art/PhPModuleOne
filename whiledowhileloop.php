@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>whiledowhileloop</title>
-</head>
-<body>
+<?php
+    $title = "Do While Loop";
+    include"includes/header.php";
+?>
+    
     <h1>Do While Loop</h1>
     <?php
         $grade = 0;
@@ -28,5 +25,6 @@
         echo "The condition was met, That is while the we exit the loop";
     ?>
     
-</body>
-</html>
+    <?php
+    require"includes/footer.php";
+?>

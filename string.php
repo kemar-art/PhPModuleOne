@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>String Manipulation</title>
-</head>
-<body>
+<?php
+    $title = "String";
+    include"includes/header.php";
+?>
+    
     <h1>String Manipulation</h1>
     <?php
         $sentanceOne = "The is the first sentance";
@@ -43,5 +40,6 @@
         echo " Replace string with another: ". str_replace("the", "my", $sentanceOne ) . "<br/>";
         
     ?>
-</body>
-</html>
+<?php
+    require"includes/footer.php";
+?>

@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Date/Time</title>
-</head>
-<body>
+<?php
+    $title = "DateTime";
+    include"includes/header.php";
+?>
+    
     <h1>Date and Time</h1>
 
     <?php
@@ -24,5 +21,6 @@
          print "Today is ";
          print date("j of F Y, \a\\t g.i a", time());
     ?>
-</body>
-</html>
+<?php
+    require"includes/footer.php";
+?>

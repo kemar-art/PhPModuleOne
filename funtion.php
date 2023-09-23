@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Functions</title>
-</head>
-<body>
+<?php
+    $title = "Functions";
+    include"includes/header.php";
+?>
+    
     <h1>Working with Fuctions</h1>
 
     <?php
@@ -33,5 +30,6 @@
         $result = returnProduct(17, 8);
         echo $result;
     ?>
-</body>
-</html>
+<?php
+    require"includes/footer.php";
+?>

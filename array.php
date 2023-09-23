@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Array</title>
-</head>
-<body>
+
+<?php
+    $title = "Array"; 
+    include"includes/header.php";
+?>
     <h1>Array</h>
     <?php 
         $numbers = array(1,2,3,4,5,6,7,8,9,10);
@@ -23,5 +20,6 @@
            
         }
     ?>
-</body>
-</html>
+<?php
+    require"includes/footer.php";
+?>
